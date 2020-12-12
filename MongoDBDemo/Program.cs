@@ -8,7 +8,6 @@ namespace API.Data
     {
         static async Task Main(string[] args)
         {
-
             //await SeedData.SeedAlbums();
             //await SeedData.SeedSongs();
             //await SeedData.SeedArtists();

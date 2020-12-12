@@ -13,5 +13,6 @@ namespace API.Data
         public string RecordLabel { get; set; }
         public DateTime ReleaseDate { get; set; }
         public ICollection<Song> Songs { get; set; }
+
     }
 }

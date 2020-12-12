@@ -45,5 +45,6 @@ namespace API.Middleware
                 await context.Response.WriteAsync(json);
             }
         }
+
     }
 }

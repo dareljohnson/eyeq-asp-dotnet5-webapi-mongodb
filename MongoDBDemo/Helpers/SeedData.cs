@@ -77,5 +77,6 @@ namespace API.Data
                 await _db.InsertRecord("artists", artist);
             }
         }
+
     }
 }

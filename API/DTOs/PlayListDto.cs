@@ -8,5 +8,6 @@ namespace API.Data
         [BsonId]
         public Guid Id { get; set; }
         public Album Album { get; set; }
+
     }
 }
