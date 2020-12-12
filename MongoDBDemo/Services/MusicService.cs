@@ -65,6 +65,5 @@ namespace API.Data
 
             await collection.DeleteOneAsync(filter);
         }
-
     }
 }

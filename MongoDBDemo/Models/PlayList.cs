@@ -9,6 +9,5 @@ namespace API.Data
         public Guid Id { get; set; }
         public Album Album { get; set; }
         public DateTime CreatedAt { get; set; }
-
     }
 }

@@ -104,7 +104,6 @@ namespace API.Data
 
             //await db.InsertRecord<PersonModel>("Users", new PersonModel { FirstName = "Bob", LastName = "White" });
 
-
             Console.ReadLine();
         }
     }

@@ -9,6 +9,5 @@ namespace API.Data
         public Guid Id { get; set; }
         public string StageName { get; set; }
         public int NumberOfTracks { get; set; }
-
     }
 }

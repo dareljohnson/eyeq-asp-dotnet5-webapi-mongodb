@@ -13,6 +13,5 @@ namespace API.Data
         Task<T> LoadRecordById<T>(string table, Guid id);
         Task UpsertRecord<T>(string table, Guid id, T record);
         Task DeleteRecord<T>(string table, Guid id);
-
     }
 }
