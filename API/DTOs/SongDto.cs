@@ -12,5 +12,6 @@ namespace API.DTOs
         public Guid Id { get; set; }
         public string SongTitle { get; set; }
         public double Duration { get; set; }
+
     }
 }

@@ -35,7 +35,6 @@ namespace API.Data
                     await _db.InsertRecord("albums", album);
                 }
             }
-            
         }
 
         public static async Task SeedSongs()
