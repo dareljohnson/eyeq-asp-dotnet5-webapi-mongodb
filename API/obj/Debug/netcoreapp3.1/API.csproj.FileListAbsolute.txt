@@ -1,0 +1,66 @@
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\API.Data.exe
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\API.exe
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\API.deps.json
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.json
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.dev.json
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\API.dll
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\API.pdb
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\DnsClient.dll
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\SharpCompress.dll
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\API.Data.dll
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\bin\Debug\netcoreapp3.1\API.Data.pdb
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\obj\Debug\netcoreapp3.1\API.csprojAssemblyReference.cache
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\obj\Debug\netcoreapp3.1\API.AssemblyInfoInputs.cache
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\obj\Debug\netcoreapp3.1\API.AssemblyInfo.cs
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.Manifest.cache
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.xml
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\obj\Debug\netcoreapp3.1\scopedcss\bundle\API.styles.css
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\obj\Debug\netcoreapp3.1\API.RazorTargetAssemblyInfo.cache
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\obj\Debug\netcoreapp3.1\API.csproj.CopyComplete
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\obj\Debug\netcoreapp3.1\API.dll
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\obj\Debug\netcoreapp3.1\API.pdb
+C:\Users\Darel\Source\Repos\MongoDBDemoApp\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\API.Data.exe
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\API.exe
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\API.deps.json
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.json
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.dev.json
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\API.dll
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\API.pdb
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\DnsClient.dll
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\SharpCompress.dll
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\API.Data.dll
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\bin\Debug\netcoreapp3.1\API.Data.pdb
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\obj\Debug\netcoreapp3.1\API.csprojAssemblyReference.cache
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\obj\Debug\netcoreapp3.1\API.AssemblyInfoInputs.cache
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\obj\Debug\netcoreapp3.1\API.AssemblyInfo.cs
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.Manifest.cache
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.xml
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\obj\Debug\netcoreapp3.1\scopedcss\bundle\API.styles.css
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\obj\Debug\netcoreapp3.1\API.RazorTargetAssemblyInfo.cache
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\obj\Debug\netcoreapp3.1\API.csproj.CopyComplete
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\obj\Debug\netcoreapp3.1\API.dll
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\obj\Debug\netcoreapp3.1\API.pdb
+C:\Users\Darel\Source\Repos\EyeQ-Interview Project\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
