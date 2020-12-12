@@ -55,8 +55,8 @@ namespace API.Controllers
 
         // PUT /api/song/update
         [HttpPut("{id:length(36)}")]
-        [Route("update")]
-        public async Task<ActionResult<Song>> UpdateSong([FromBody] SongDto songDto)
+        [Route("edit")]
+        public async Task<ActionResult<Song>> EditSong([FromBody] SongDto songDto)
         {
             if (songDto.Id == Guid.Empty)
             {
@@ -80,16 +80,16 @@ namespace API.Controllers
         // DELETE /api/song/delete
         [HttpDelete("{id:length(36)}")]
         [Route("delete")]
-        public async Task<ActionResult<Song>> DeleteSong(Guid id)
+        public async Task<ActionResult<Song>> DeleteSong([FromBody] SongDto songDto)
         {
-            var song = await _db.LoadRecordById<Song>("songs", id);
+            var song = await _db.LoadRecordById<Song>("songs", songDto.Id);
 
             if (song == null)
             {
                 return NotFound();
             }
 
-            await _db.DeleteRecord<Song>("songs", id);
+            await _db.DeleteRecord<Song>("songs", songDto.Id);
 
             return NoContent();
         }
