@@ -9,6 +9,8 @@ namespace API.Data
         [BsonId]
         public Guid Id { get; set; }
         public string SongTitle { get; set; }
+        public string StageName { get; set; }
         public double Duration { get; set; }
+
     }
 }

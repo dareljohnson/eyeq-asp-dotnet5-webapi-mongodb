@@ -46,6 +46,30 @@ namespace API.Data
             return await collection.FindAsync(filter).Result.FirstAsync();
         }
 
+        public async Task<T> LoadRecordBySongTitle<T>(string table, string title)
+        {
+            var collection = db.GetCollection<T>(table);
+            var filter = Builders<T>.Filter.Eq("Song", title);
+
+            return await collection.FindAsync(filter).Result.FirstAsync();
+        }
+
+        public async Task<T> LoadRecordByAlbumTitle<T>(string table, string title)
+        {
+            var collection = db.GetCollection<T>(table);
+            var filter = Builders<T>.Filter.Eq("albums", title);
+
+            return await collection.FindAsync(filter).Result.FirstAsync();
+        }
+
+        public async Task<T> LoadRecordByArtistTitle<T>(string table, string title)
+        {
+            var collection = db.GetCollection<T>(table);
+            var filter = Builders<T>.Filter.Eq("artists", title);
+
+            return await collection.FindAsync(filter).Result.FirstAsync();
+        }
+
         public async Task UpsertRecord<T>(string table, Guid id, T record)
         {
             var collection = db.GetCollection<T>(table);

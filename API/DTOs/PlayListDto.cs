@@ -7,7 +7,8 @@ namespace API.Data
     {
         [BsonId]
         public Guid Id { get; set; }
-        public Album Album { get; set; }
-
+        //public Album Album { get; set; }
+        public string SongTitle { get; set; }
+        public Artist Artist { get; set; }
     }
 }

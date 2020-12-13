@@ -1,0 +1,302 @@
+{
+	"info": {
+		"_postman_id": "99f58e43-89e4-4a17-a909-9a99ea0e143d",
+		"name": "EyeQ Web API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all Songs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44362/api/song/all",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44362",
+					"path": [
+						"api",
+						"song",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add a Song",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"songTitle\": \"Thriller\",\r\n\t\"duration\": 11.9,\r\n    \"StageName\":\"Michael Jackson\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44362/api/song/add",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44362",
+					"path": [
+						"api",
+						"song",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit a Song",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": \"731a1304-993b-4b59-ac3e-0db9889fba53\",\r\n        \"songTitle\": \"Wanted Dead or Alive\",\r\n        \"duration\": 6.3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44362/api/song/edit",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44362",
+					"path": [
+						"api",
+						"song",
+						"edit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a Song",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": \"731a1304-993b-4b59-ac3e-0db9889fba53\",\r\n        \"songTitle\": \"Wanted Dead or Alive\",\r\n        \"duration\": 6.3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44362/api/song/delete",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44362",
+					"path": [
+						"api",
+						"song",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Albums",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44362/api/album/all",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44362",
+					"path": [
+						"api",
+						"album",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add an Album",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"Title\":\"Test1\",\r\n\t\"Artist\": {\r\n        \"StageName\":\"Testy1\"\t\r\n\t},\r\n\t\"RecordLabel\":\"Sony\",\r\n\t\"Songs\": [\r\n\t\t\t\t{\"SongTitle\":\"Test\",\"Duration\":2.3 },\r\n\t\t\t\t{\"SongTitle\":\"Test2\",\"Duration\":9.1 },\r\n                {\"SongTitle\":\"Test3\",\"Duration\":2.1 }\t   \r\n\t\t\t]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44362/api/album/add",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44362",
+					"path": [
+						"api",
+						"album",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit an Album",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete an Album",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Playlists",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44362/api/playlist/all",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44362",
+					"path": [
+						"api",
+						"playlist",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add a PlayList",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"SongTitle\":\"Thriller\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44362/api/playlist/add",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44362",
+					"path": [
+						"api",
+						"playlist",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove a Playlist",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": \"008b4e7e-89e1-49ea-9509-8b3119f0cc77\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44362/api/playlist/delete",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44362",
+					"path": [
+						"api",
+						"playlist",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

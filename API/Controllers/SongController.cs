@@ -41,9 +41,10 @@ namespace API.Controllers
         {
             if (songDto.SongTitle == string.Empty) return BadRequest();
 
-                Song song = new Song
+            Song song = new Song
             {
                 SongTitle = songDto.SongTitle ?? string.Empty,
+                StageName = songDto.StageName ?? string.Empty,
                 Duration = songDto.Duration != null ? songDto.Duration : new double()
             };
 
@@ -53,7 +54,7 @@ namespace API.Controllers
             return NoContent();
         }
 
-        // PUT /api/song/update
+        // PUT /api/song/edit
         [HttpPut("{id:length(36)}")]
         [Route("edit")]
         public async Task<ActionResult<Song>> EditSong([FromBody] SongDto songDto)
@@ -82,6 +83,13 @@ namespace API.Controllers
         [Route("delete")]
         public async Task<ActionResult<Song>> DeleteSong([FromBody] SongDto songDto)
         {
+            if (songDto.Id == Guid.Empty)
+            {
+                var apiException = new ApiException(400, "Missing Id in body");
+
+                return BadRequest(apiException.Message);
+            }
+
             var song = await _db.LoadRecordById<Song>("songs", songDto.Id);
 
             if (song == null)
